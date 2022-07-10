@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: 629948353967.dkr.ecr.sa-east-1.amazonaws.com/cp_order66:latest
+    restart: on-failure
+    ports:
+    - "3666:3000"
