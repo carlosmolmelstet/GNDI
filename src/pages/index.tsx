@@ -30,7 +30,7 @@ export default function HotSite() {
             justifyContent="center"
             onClick={() => router.push('/clinepam')}
           >
-            <BoxMenu label="Dr. ClinePam" icon={DoctorIcon} />
+            <BoxMenu label="Dr. Clinipam " icon={DoctorIcon} />
           </GridItem>
           <GridItem
             onClick={() => router.push('/carteirinha')}

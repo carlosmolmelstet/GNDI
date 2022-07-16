@@ -61,7 +61,7 @@ export function Header() {
                 _hover={{ color: 'FF9F00', cursor: 'pointer' }}
                 onClick={() => router.push('/clinepam')}
               >
-                Dr. Clinepam
+                Dr. Clinipam
               </Text>
               <Text
                 fontSize={24}

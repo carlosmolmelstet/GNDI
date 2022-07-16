@@ -38,7 +38,7 @@ export default function HotSite() {
     <Layout pageTitle="Home">
       <Box p={4}>
         <Heading color="#FF9F00" mb={10}>
-          Dr ClinePam
+          Dr Clinipam
         </Heading>
         <Stack spacing={8}>
           <Box>
