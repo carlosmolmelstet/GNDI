@@ -14,7 +14,6 @@ export default class Document extends NextDocument {
             rel="stylesheet"
           ></link>
           <link rel="stylesheet" href="/styles/fonts.css" />
-          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="stylesheet" type="text/css" href="/styles/nProgress.css" />
 
           <script

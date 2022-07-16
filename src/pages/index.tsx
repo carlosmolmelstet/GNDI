@@ -32,10 +32,18 @@ export default function HotSite() {
           >
             <BoxMenu label="Dr. ClinePam" icon={DoctorIcon} />
           </GridItem>
-          <GridItem display="flex" justifyContent="center">
+          <GridItem
+            onClick={() => router.push('/carteirinha')}
+            display="flex"
+            justifyContent="center"
+          >
             <BoxMenu label="Carteirinha" icon={CardIcon} />
           </GridItem>
-          <GridItem display="flex" justifyContent="center">
+          <GridItem
+            onClick={() => router.push('/calendario')}
+            display="flex"
+            justifyContent="center"
+          >
             <BoxMenu label="Agendar " icon={CalendarIcon} />
           </GridItem>
         </Grid>

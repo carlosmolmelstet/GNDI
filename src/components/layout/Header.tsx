@@ -67,6 +67,7 @@ export function Header() {
                 fontSize={24}
                 color="white"
                 _hover={{ color: 'FF9F00', cursor: 'pointer' }}
+                onClick={() => router.push('/carteirinha')}
               >
                 Carteirinha
               </Text>
@@ -74,6 +75,7 @@ export function Header() {
                 fontSize={24}
                 color="white"
                 _hover={{ color: 'FF9F00', cursor: 'pointer' }}
+                onClick={() => router.push('/calendario')}
               >
                 Agendar Consultas
               </Text>
